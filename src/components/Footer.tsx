@@ -99,7 +99,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-border/50 mt-8 pt-8 text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} SnapStyle. All rights reserved.
+          © {new Date().getFullYear()} SnapStyle. All rights reserved. by Alex Rada for <a href="https://onemillionlines.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">OneMillionLines</a>
         </div>
       </div>
     </footer>
