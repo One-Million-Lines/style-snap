@@ -52,7 +52,7 @@ export const portraitTemplates: Template[] = [
     id: "pixar-style",
     title: "Pixar Style",
     category: "Artistic",
-    description: "Transform into a lovable Pixar-style animated character.",
+    description: "Transform into a nice Pixar-style animated character.",
   },
   {
     id: "anime-portrait",
