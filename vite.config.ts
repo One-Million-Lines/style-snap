@@ -5,7 +5,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/demo/style-snap/",
+  base: mode === "production" ? "/demo/style-snap/" : "/",
   server: {
     host: "::",
     port: 5304,
